@@ -1,0 +1,7 @@
+version: '0.1'
+services:
+   kali:
+     image: kalilinux/kali-linux-docker
+     command:
+       - apt-get update
+       - apt-get install kali-linux-all
